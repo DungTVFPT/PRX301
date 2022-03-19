@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:wght@400;500&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/script.js"></script>
+    <title>Math Quiz</title>
+</head>
+
+<body>
+    <div class="main">
+        <header class="header mt-30">
+            <h1>Math Quiz</h1>
+            <div class="header-bottom mt-30">
+                <p id="score">Score: 0</p>
+                <p id="level">Level: 0</p>
+            </div>
+        </header>
+        <div class="container">
+            <div id="progressbar">
+                <div id="progressbarPct"></div>
+            </div>
+            <div>
+                <p id="operator" class="top-screen mt-30">? - ?
+                </p>
+                <p class="center-screen mt-30" id="result">?
+                    <script type="text/javascript">
+                        myFunction();
+                    </script>
+                </p>
+            </div>
+        </div>
+        <div class="footer mt-30">
+            <button onclick="myFunctionCorrect()" class="btn btn-check">
+          <i class="fa-solid fa-check"></i>
+        </button>
+            <button onclick="myFunctionFail()" class="btn btn-x">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+        </div>
+    </div>
+</body>
+<script src="https://kit.fontawesome.com/e6dd5994ee.js" crossorigin="anonymous"></script>
+
+</html>

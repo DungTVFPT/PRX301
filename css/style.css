@@ -1,0 +1,124 @@
+body {
+    font-family: "Abril Fatface", cursive;
+    font-family: "Montserrat", sans-serif;
+    font-family: "Poppins", sans-serif;
+    background-color: #eee;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.main {
+    width: 350px;
+    margin: 0 auto;
+    border-radius: 10px;
+    overflow: hidden;
+    min-height: 85vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #fff;
+    background-color: #a8b6c9;
+}
+
+.header>h1 {
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.header-bottom {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.top-screen {
+    margin-top: 60px;
+    font-size: 50px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #000;
+    display: inline-block;
+}
+
+.center-screen {
+    margin-top: 40px;
+    font-size: 50px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px 0 50px 0;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    box-shadow: 1px 2px 3px rgba(red, green, blue, 0.1);
+    background-color: #fff;
+}
+
+.btn {
+    width: 100px;
+    height: 40px;
+    font-size: 30px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s linear;
+}
+
+.btn-check {
+    color: white;
+    background-color: #339966;
+}
+
+.btn-x {
+    color: white;
+    background-color: #cc0066;
+}
+
+.btn-check:hover {
+    background-color: #00cc66;
+}
+
+.btn-x:hover {
+    background-color: #ff0066;
+}
+
+.container {
+    padding-top: 10px;
+}
+
+#progressbar {
+    background-color: black;
+    border-radius: 15px;
+    padding: 3px;
+    height: 10px;
+    width: 240px;
+    margin: 0 auto;
+}
+
+#progressbar>div {
+    background-color: orange;
+    width: 0px;
+    /* Adjust with JavaScript */
+    height: 10px;
+    border-radius: 10px;
+}
